@@ -1,9 +1,6 @@
 ---
 title: Two teaspoons of information, please.
-slug: information
-published_date: 2025-11-05T07:49:40.851792+00:00
-publish: true
-is_page: false
+date: 2025-11-05T07:49:40.851792+00:00
 lang: en
 ---
 

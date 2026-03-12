@@ -1,9 +1,6 @@
 ---
 title: What it means to read a book
-slug: reading
-published_date: 2025-10-09T18:33:00+00:00
-publish: true
-is_page: false
+date: 2025-10-09T18:33:00+00:00
 ---
 
 I have a young cousin who’s preparing for a government job exam. He asked me how many books I read a month. I said that I read at least 2-3 books a month. He said he had read only 4-5 books in the last year.

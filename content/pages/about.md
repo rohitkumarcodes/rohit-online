@@ -1,9 +1,6 @@
 ---
 title: About
-slug: about
-published_date: 2022-08-03T10:44:00+00:00
-publish: true
-is_page: true
+date: 2022-08-03T10:44:00+00:00
 ---
 
 # Rohit who?

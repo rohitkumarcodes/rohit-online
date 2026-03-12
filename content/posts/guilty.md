@@ -1,9 +1,6 @@
 ---
 title: Guilty Until Proven Innocent
-slug: guilty
-published_date: 2022-08-13T17:44:39.113942+00:00
-publish: true
-is_page: false
+date: 2022-08-13T17:44:39.113942+00:00
 ---
 
 Thumb rules are life savers. Instead of muddling with theories, they give you practical solutions. If you find a useful thumb rule, you better write it down. Like catching a rare pokemon as soon as you see it.

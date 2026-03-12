@@ -1,9 +1,6 @@
 ---
 title: I am the average of my five closest people. What if three of them are AI?
-slug: ai-influence
-published_date: 2025-05-06T13:15:55.885273+00:00
-publish: true
-is_page: false
+date: 2025-05-06T13:15:55.885273+00:00
 ---
 
 I can attribute many of my personality quirks to my closest people. I am interested in reading non-fiction, in technology, in written words because of someone who is close to me right now or was close to me once.

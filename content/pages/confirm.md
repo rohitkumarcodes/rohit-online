@@ -1,9 +1,6 @@
 ---
 title: Confirm your email
-slug: confirm
-published_date: 2025-05-01T14:47:00+00:00
-publish: true
-is_page: true
+date: 2025-05-01T14:47:00+00:00
 ---
 
 Hey,

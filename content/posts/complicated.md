@@ -1,16 +1,13 @@
 ---
 title: Life is complicated, cooking doesn’t have to be
-slug: complicated
-published_date: 2022-11-29T09:27:00+00:00
-publish: true
-is_page: false
+date: 2022-11-29T09:27:00+00:00
 ---
 
 1.
 
 Tadas Viskanta did it again. He found an interesting approach to a worn-out topic. 
 
-In his blog '[Life is complicated, working out doesn’t have to be](tab:https://abnormalreturns.com/2022/11/13/life-is-complicated-working-out-doesnt-have-to-be/)', Tadas points out how a simple home workout can benefit you equal to a fancy gym workout. And how the same is true about investing. If you read it, you will end up agreeing with him. 
+In his blog '[Life is complicated, working out doesn’t have to be](https://abnormalreturns.com/2022/11/13/life-is-complicated-working-out-doesnt-have-to-be/)', Tadas points out how a simple home workout can benefit you equal to a fancy gym workout. And how the same is true about investing. If you read it, you will end up agreeing with him. 
 
 
 Here's the most interesting part of his post: Replace 'working out' with almost any skill you want to acquire, with any habit you want to build, and it still makes sense.

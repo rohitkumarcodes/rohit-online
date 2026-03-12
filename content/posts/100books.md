@@ -1,9 +1,6 @@
 ---
 title: 100 books I want to re-read all my life
-slug: 100books
-published_date: 2025-02-17T05:35:00+00:00
-publish: true
-is_page: false
+date: 2025-02-17T05:35:00+00:00
 ---
 
 I've been reading books for about a decade now (school and college books are not counted). But it occurred to me only last year that the end goal is not to increase my reading count; I can re-read the books I loved reading the first time.

@@ -1,9 +1,6 @@
 ---
 title: What is helping me journal daily
-slug: jd
-published_date: 2025-04-10T17:32:00+00:00
-publish: true
-is_page: false
+date: 2025-04-10T17:32:00+00:00
 ---
 
 I failed at journaling 5-6 times before it finally stuck. Here are a few things that help me journal consistently:
@@ -30,6 +27,6 @@ I failed at journaling 5-6 times before it finally stuck. Here are a few things 
 
 - Every day, I start the journal entry with 'Today I woke up at XX AM.' Writing the first sentence answers the BIG question of what should I start with. The first sentence is done, then I write the second sentence.
 
-- Using a text editor app that I like helps. I tend to journal less when I use a text editor that I don't like. When I like the text editor, I journal more. These days, I am using [Nota.md](tab:https://www.nota.md) as my main text editing app.
+- Using a text editor app that I like helps. I tend to journal less when I use a text editor that I don't like. When I like the text editor, I journal more. These days, I am using [Nota.md](https://www.nota.md) as my main text editing app.
 
 On average, I've been journaling five days a week for the past few months. To make the habit even stickier, I will try to implement some of Atomic Habits' learnings and update what works for me here.

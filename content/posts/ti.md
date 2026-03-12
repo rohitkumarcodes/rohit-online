@@ -1,9 +1,8 @@
 ---
 title: Tech Independence
-slug: ti
-published_date: 2026-01-06T10:23:00+00:00
-publish: false
-is_page: false
+date: 2026-01-06T10:23:00+00:00
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 # Tech Independence

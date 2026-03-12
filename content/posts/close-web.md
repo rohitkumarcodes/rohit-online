@@ -1,9 +1,6 @@
 ---
 title: AI is killing the open web. Who can stop it?
-slug: close-web
-published_date: 2025-05-19T08:47:00+00:00
-publish: true
-is_page: false
+date: 2025-05-19T08:47:00+00:00
 ---
 
 My website is www.rohit.online. You can visit it from your home computer, your office computer, from anywhere in your home country, or anywhere on the planet. You don’t need to login or pay anything.
@@ -22,7 +19,7 @@ Google bots still scrape the web. But now, for every six pages scraped, they sen
 
 This sounds unfair. But wait till you hear about the LLMs.
 
-For every 250 pages that OpenAI scrapes, it sends one user to the original website. For every 6000 pages that Anthropic scrapes, it sends one user to the original website. These numbers are reliable as they come from [Cloudflare](tab:https://www.youtube.com/shorts/s98VF5MhfNw), the company that knows more about internet traffic than any other company.
+For every 250 pages that OpenAI scrapes, it sends one user to the original website. For every 6000 pages that Anthropic scrapes, it sends one user to the original website. These numbers are reliable as they come from [Cloudflare](https://www.youtube.com/shorts/s98VF5MhfNw), the company that knows more about internet traffic than any other company.
 
 The products of these AI companies are called helpful assistants. Are they? Or are they bullies? 
 

@@ -1,9 +1,6 @@
 ---
 title: Resources
-slug: resources
-published_date: 2025-04-06T09:36:00+00:00
-publish: true
-is_page: true
+date: 2025-04-06T09:36:00+00:00
 ---
 
 # A list of educational resources:

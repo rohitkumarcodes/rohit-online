@@ -1,9 +1,6 @@
 ---
 title: Things that changed my life (not figuratively)
-slug: lc
-published_date: 2024-06-27T19:23:00+00:00
-publish: true
-is_page: false
+date: 2024-06-27T19:23:00+00:00
 ---
 
 Book reviews, product reviews, and comment sections of songs are filled with the phrase “this xyz thing changed my life.” But I doubt that a trolley bag or a romantic novel featuring wolverines can change anyone’s life.  
@@ -36,6 +33,6 @@ At first, I thought I was overhyping the benefits of journaling in my brain beca
 
 I've become calmer and more content. Also, I can see a world that doesn't revolve around Rohit.
 
-I do daily journaling and topic journaling the [Derek Sivers way](tab:https://sive.rs/dj). 
+I do daily journaling and topic journaling the [Derek Sivers way](https://sive.rs/dj). 
 
 

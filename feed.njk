@@ -11,7 +11,7 @@ metadata:
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ '/feed/' | absoluteUrl(site.url) }}" rel="self"/>
   <link href="{{ '/' | absoluteUrl(site.url) }}"/>
-  <updated>{{ collections.publishedPosts[0].data.published_date | rfc3339Date }}</updated>
+  <updated>{{ collections.publishedPosts[0].date | rfc3339Date }}</updated>
   <id>{{ '/' | absoluteUrl(site.url) }}</id>
   <author>
     <name>{{ site.author.name }}</name>
@@ -21,9 +21,9 @@ metadata:
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ post.url | absoluteUrl(site.url) }}"/>
-    <updated>{{ post.data.published_date | rfc3339Date }}</updated>
+    <updated>{{ post.date | rfc3339Date }}</updated>
     <id>{{ post.url | absoluteUrl(site.url) }}</id>
-    <content type="html">{{ post.templateContent | normalizeContent | htmlToAbsoluteUrls(site.url) | safe }}</content>
+    <content type="html">{{ post.templateContent | safeExternalLinks | htmlToAbsoluteUrls(site.url) | safe }}</content>
   </entry>
   {% endfor %}
 </feed>

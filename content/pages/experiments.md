@@ -1,9 +1,6 @@
 ---
 title: A few things I am experimenting with
-slug: experiments
-published_date: 2025-10-31T15:16:00+00:00
-publish: true
-is_page: true
+date: 2025-10-31T15:16:00+00:00
 ---
 
 Here is a bunch of mini experiments I am doing:

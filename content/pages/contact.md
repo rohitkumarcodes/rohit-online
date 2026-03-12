@@ -1,9 +1,6 @@
 ---
 title: Contact
-slug: contact
-published_date: 2022-11-27T05:30:00+00:00
-publish: true
-is_page: true
+date: 2022-11-27T05:30:00+00:00
 ---
 
 Mail me at hello (at) rohit.online

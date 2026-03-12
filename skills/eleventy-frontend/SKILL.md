@@ -1,6 +1,6 @@
 ---
 name: eleventy-frontend
-description: Use for frontend work on this Eleventy site: layouts, pages, styling, content rendering, feed output, route behavior, responsive fixes, and Bear-to-Eleventy presentation compatibility.
+description: Use for frontend work on this Eleventy site: layouts, pages, styling, content rendering, feed output, route behavior, responsive fixes, and Eleventy-native content organization.
 ---
 
 # Eleventy Frontend
@@ -13,7 +13,7 @@ Use this skill when changing the UI or rendered output of `rohit.online`.
 - Changing typography, spacing, colors, or responsive behavior
 - Fixing rendered Markdown or HTML output
 - Adjusting homepage, feed, navigation, or route presentation
-- Preserving Bear export compatibility while improving the site shell
+- Maintaining route and rendering parity while improving the site shell
 
 ## Design Philosophy
 
@@ -29,29 +29,28 @@ Use this skill when changing the UI or rendered output of `rohit.online`.
 - Default to server-rendered pages, not SPA-style flows.
 - Default to native HTML elements, not custom components.
 - Default to text, whitespace, and document structure over decorative UI.
-- Default to root-relative internal links and plain external links with safe attributes.
+- Default to root-relative internal links and Markdown external links, with safe attributes added at render time.
 - Default to CSS that helps content flow naturally rather than CSS that forces rigid layouts.
-- Default to keeping exported content untouched and fixing presentation around it.
+- Default to keeping authored content untouched and fixing presentation around it.
 
 ## Project Context
 
 - Static site generator: Eleventy 3
 - Templating: Nunjucks layouts and pages
-- Content source: `rohitkumar-export/*.md`
-- Computed content metadata: `rohitkumar-export/rohitkumar-export.11tydata.js`
+- Content source: `content/posts/*.md` and `content/pages/*.md`
+- Directory data: `content/posts/posts.11tydata.js` and `content/pages/pages.11tydata.js`
 - Shared site data: `_data/site.js`
 - Layouts: `_includes/layouts/`
 - Homepage: `index.njk`
 - Feed: `feed.njk`
 - Styling: `assets/styles.css`
-- Render-time compatibility logic: `eleventy.config.cjs`
 - Design reference: `skills/eleventy-frontend/design-principles.md`
 
 ## Workflow
 
 1. Inspect existing frontend patterns before adding new ones.
-2. Treat `rohitkumar-export` content as immutable unless the user explicitly asks to edit copy.
-3. Prefer fixing presentation in layouts, data files, transforms, or CSS rather than rewriting source Markdown.
+2. Treat authored content in `content/` as immutable unless the user explicitly asks to edit copy.
+3. Prefer plain Markdown and root-relative internal links in content, and let the render layer handle external-link attributes.
 4. Preserve existing slug-based routes and generated URLs unless the user explicitly asks for route changes.
 5. Keep desktop and mobile behavior both working.
 6. Verify with `pnpm build` after frontend changes.
@@ -68,13 +67,13 @@ Use this skill when changing the UI or rendered output of `rohit.online`.
 
 - Keep the site lightweight; do not introduce a client-side framework unless explicitly requested.
 - Reuse the existing Nunjucks layout structure before adding new templates.
-- Preserve raw Markdown and HTML rendering from the Bear export.
-- If a Bear-specific construct renders badly, fix it in `eleventy.config.cjs` transforms or filters.
+- Preserve raw Markdown and HTML rendering from the authored content.
 - Keep navigation simple and editorial; this site does not need app-style UI patterns.
 - Use semantic HTML first, CSS second, JavaScript only when there is a clear interaction need.
 - Maintain readable content width, clear link states, and mobile-safe spacing.
-- When adding links that come from `tab:` sources, ensure they render as external links with safe attributes.
-- Preserve `/feed.xml` behavior and avoid breaking internal links rewritten from the export.
+- Use root-relative links for internal navigation inside authored content.
+- Write external links as normal Markdown and rely on the render layer to add `target="_blank"` and `rel="noopener noreferrer"` for external HTTP(S) URLs.
+- Preserve `/feed.xml` behavior and avoid breaking internal links.
 - Do not remove default browser focus styles.
 - Do not add custom component libraries, CSS frameworks, SVG icon packs, or decorative animations unless explicitly requested.
 
@@ -103,11 +102,11 @@ Use this skill when changing the UI or rendered output of `rohit.online`.
 
 ## Content And Rendering Rules
 
-- Never “clean up” or rewrite exported prose unless the user explicitly asks for copy edits.
+- Never “clean up” or rewrite authored prose unless the user explicitly asks for copy edits.
 - Preserve route parity for published content at `/<slug>/`.
 - Preserve raw HTML in Markdown where possible.
-- If malformed exported markup renders incorrectly, repair it at render time rather than editing the source file.
-- Keep feed generation, internal link normalization, and Bear-specific rewrites working after any frontend change.
+- Prefer editing legacy content into plain Markdown or HTML rather than carrying compatibility syntax forward.
+- Keep feed generation and content rendering working after any frontend change.
 - Preserve browser accessibility defaults, including focus rings, zooming, and native control appearance.
 
 ## When Complex UI Is Requested
@@ -136,8 +135,8 @@ Use this skill when changing the UI or rendered output of `rohit.online`.
 - Published routes still render at `/<slug>/`
 - Homepage and feed still generate
 - Desktop and mobile layouts remain readable
-- Content from the export has not been rewritten accidentally
-- External link rewrites and feed rewrites still work
+- Content in `content/` has not been rewritten accidentally
+- External Markdown links render with safe attributes, and feed output still works
 - Raw images, figures, and small inline HTML snippets still render correctly
 - Links still look and behave like links, and buttons still behave like buttons
 - No custom UI abstraction was introduced where native HTML would have been enough
@@ -147,7 +146,7 @@ Use this skill when changing the UI or rendered output of `rohit.online`.
 
 ## References
 
-- `eleventy.config.cjs` for transforms, filters, front matter parsing, and collections
+- `eleventy.config.cjs` for filters and collections
 - `_includes/layouts/base.njk` for shared shell
 - `_includes/layouts/page.njk` and `_includes/layouts/post.njk` for content presentation
 - `assets/styles.css` for all current styling

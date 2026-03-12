@@ -1,9 +1,6 @@
 ---
 title: Now
-slug: now
-published_date: 2025-02-24T20:21:00+00:00
-publish: true
-is_page: true
+date: 2025-02-24T20:21:00+00:00
 ---
 
 Last Updated: 8 Jan, 2026

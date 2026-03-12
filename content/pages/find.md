@@ -1,9 +1,6 @@
 ---
 title: Got a minute? Help me find something
-slug: find
-published_date: 2025-04-18T10:57:00+00:00
-publish: true
-is_page: true
+date: 2025-04-18T10:57:00+00:00
 ---
 
 # Got a minute? Help me find something.
