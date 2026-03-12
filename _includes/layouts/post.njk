@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+---
+<article class="content">
+  <header class="content-header">
+    <h1>{{ title }}</h1>
+    <p class="post-meta"><time datetime="{{ published_date | rfc3339Date }}">{{ published_date | postDate }}</time></p>
+  </header>
+  <div class="content-body">
+    {{ content | safe }}
+  </div>
+</article>

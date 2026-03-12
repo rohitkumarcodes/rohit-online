@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<article class="content">
+  {% if not (content | startsWithHeading) %}
+  <header class="content-header">
+    <h1>{{ title }}</h1>
+  </header>
+  {% endif %}
+  <div class="content-body">
+    {{ content | safe }}
+  </div>
+</article>

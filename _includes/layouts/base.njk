@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ lang or site.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if title and title != site.title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="canonical" href="{{ (page.url or '/') | absoluteUrl(site.url) }}">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Feed" href="/feed">
+  </head>
+  <body class="{% if page.url == '/' %}template-home{% elseif is_page %}template-page{% else %}template-post{% endif %}">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        {% if page.url == '/' %}
+        <h1 class="site-logo"><a href="/" aria-current="page">{{ site.logoText }}</a></h1>
+        {% else %}
+        <p class="site-logo"><a href="/">{{ site.logoText }}</a></p>
+        {% endif %}
+        <nav aria-label="Primary">
+          <p class="site-nav">
+            | {% for item in site.navigation %}
+            <a href="{{ item.url }}"{% if page and page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a> {% if not loop.last %}| {% endif %}
+            {% endfor %}
+          </p>
+        </nav>
+      </header>
+
+      <main id="main" class="site-main">
+        {{ content | safe }}
+      </main>
+    </div>
+  </body>
+</html>

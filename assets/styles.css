@@ -1,0 +1,142 @@
+:root {
+  --page-width: 42rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+
+.site-shell {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid;
+  text-align: left;
+  vertical-align: top;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 1px solid;
+}
+
+small,
+figcaption {
+  display: block;
+}
+
+.inline {
+  width: auto !important;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.site-header {
+  margin-bottom: 2rem;
+}
+
+.site-logo {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.site-nav,
+.post-meta {
+  margin: 0;
+}
+
+.site-main > :first-child,
+.content-body > :first-child {
+  margin-top: 0;
+}
+
+.content-header {
+  margin-bottom: 1.5rem;
+}
+
+.content-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.content-body > :last-child {
+  margin-bottom: 0;
+}
+
+.content-body > :is(h2, h3, h4) {
+  margin-top: 2rem;
+}
+
+.content-body img {
+  margin: 1rem 0;
+}
+
+.signup-shell {
+  margin: 2rem 0;
+}
+
+.signup-form {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 24rem;
+}
+
+.signup-form input,
+.signup-form button {
+  width: 100%;
+  font: inherit;
+  padding: 0.65rem 0.75rem;
+}
+
+@media (max-width: 40rem) {
+  .site-shell {
+    padding: 1rem 0.875rem 3rem;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+  }
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
