@@ -3,7 +3,6 @@ title: A few useful quotes
 slug: quotes
 published_date: 2022-11-07T13:24:00+00:00
 publish: true
-make_discoverable: false
 is_page: false
 ---
 

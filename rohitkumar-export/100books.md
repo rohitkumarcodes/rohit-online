@@ -3,7 +3,6 @@ title: 100 books I want to re-read all my life
 slug: 100books
 published_date: 2025-02-17T05:35:00+00:00
 publish: true
-make_discoverable: false
 is_page: false
 ---
 

@@ -3,7 +3,6 @@ title: I am the average of my five closest people. What if three of them are AI?
 slug: ai-influence
 published_date: 2025-05-06T13:15:55.885273+00:00
 publish: true
-make_discoverable: true
 is_page: false
 ---
 

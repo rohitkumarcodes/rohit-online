@@ -3,7 +3,6 @@ title: AI is killing the open web. Who can stop it?
 slug: close-web
 published_date: 2025-05-19T08:47:00+00:00
 publish: true
-make_discoverable: true
 is_page: false
 ---
 

@@ -3,7 +3,6 @@ title: Life is complicated, cooking doesn’t have to be
 slug: complicated
 published_date: 2022-11-29T09:27:00+00:00
 publish: true
-make_discoverable: false
 is_page: false
 ---
 
@@ -37,7 +36,7 @@ I am cooking almost daily for the last 40-45 days. Usually, I make dinner. When 
 I intend to learn cooking from the first principles. Maybe next year. But for now, I just want to enjoy the taste of cooked garlic and the aroma of masala tea.
 
 
-![Rohit Kumar](https://bear-images.sfo2.cdn.digitaloceanspaces.com/rohitkumar-1669710812-0.jpeg)
+![Rohit Kumar](/assets/images/imported/rohitkumar-1669710812-0.jpeg)
 
 
 Today, I made Halwai-style potato curry. My roommate said it's delicious. 

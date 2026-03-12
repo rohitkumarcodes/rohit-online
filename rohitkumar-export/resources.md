@@ -3,7 +3,6 @@ title: Resources
 slug: resources
 published_date: 2025-04-06T09:36:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 

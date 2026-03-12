@@ -3,7 +3,6 @@ title: About
 slug: about
 published_date: 2022-08-03T10:44:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 
@@ -21,7 +20,7 @@ Initially, I never gave it enough thought. Should it even be counted as somethin
 
 Walking alone or with friends, either works for me. Sometimes I talk on the phone while walking, other times I simply watch the dogs playing around. Life feels better when I walk a few kilometers every day.
 
-<img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/rohitkumar/1111.webp" width="500">
+<img src="/assets/images/imported/1111.webp" width="500">
 
 <small>[Tamiya Village, Saitama by Kawase Hasui]</small>
 
@@ -35,7 +34,7 @@ I love conversing with friends, playing nine-ball pool, going down internet rabb
 
 And I love to love.
 
-<img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/rohitkumar/pxl_20250109_025507795-1.webp" width="500" alt="Rohit">
+<img src="/assets/images/imported/pxl_20250109_025507795-1.webp" width="500" alt="Rohit">
 
 <small>Happy me, because I saw an anthill so big for the first time</small>
 
@@ -48,7 +47,7 @@ I've spent all my life either in my hometown or in Delhi. However, I am an inter
 ## I Talk
 Got any questions or just want to say hi? Feel free to mail me at hello (at) rohit.online
 
-<img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/rohitkumar/img_20250125_111822-2.webp" width="500"" alt="Rohit">
+<img src="/assets/images/imported/img_20250125_111822-2.webp" width="500" alt="Rohit">
 
 <small>Happy me, because I was exploring a new place with a good friend</small>
 

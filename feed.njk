@@ -1,7 +1,6 @@
 ---
-permalink: /feed
+permalink: /feed/
 eleventyExcludeFromCollections: true
-eleventyAllowMissingExtension: true
 metadata:
   title: Rohit Kumar
   subtitle: Personal website and blog of Rohit Kumar.
@@ -10,7 +9,7 @@ metadata:
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.language }}">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
-  <link href="{{ '/feed' | absoluteUrl(site.url) }}" rel="self"/>
+  <link href="{{ '/feed/' | absoluteUrl(site.url) }}" rel="self"/>
   <link href="{{ '/' | absoluteUrl(site.url) }}"/>
   <updated>{{ collections.publishedPosts[0].data.published_date | rfc3339Date }}</updated>
   <id>{{ '/' | absoluteUrl(site.url) }}</id>

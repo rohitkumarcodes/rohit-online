@@ -3,7 +3,6 @@ title: I failed
 slug: fail
 published_date: 2023-04-04T13:37:00+00:00
 publish: true
-make_discoverable: false
 is_page: false
 ---
 

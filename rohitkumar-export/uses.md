@@ -3,7 +3,6 @@ title: Uses
 slug: uses
 published_date: 2025-04-01T17:29:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 

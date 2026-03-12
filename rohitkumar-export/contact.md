@@ -3,7 +3,6 @@ title: Contact
 slug: contact
 published_date: 2022-11-27T05:30:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 

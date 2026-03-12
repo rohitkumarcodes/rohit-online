@@ -7,7 +7,7 @@
     <meta name="description" content="{{ description or site.description }}">
     <link rel="canonical" href="{{ (page.url or '/') | absoluteUrl(site.url) }}">
     <link rel="stylesheet" href="/assets/styles.css">
-    <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Feed" href="/feed">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Feed" href="/feed/">
   </head>
   <body class="{% if page.url == '/' %}template-home{% elseif is_page %}template-page{% else %}template-post{% endif %}">
     <a class="skip-link" href="#main">Skip to content</a>

@@ -3,7 +3,6 @@ title: Guilty Until Proven Innocent
 slug: guilty
 published_date: 2022-08-13T17:44:39.113942+00:00
 publish: true
-make_discoverable: false
 is_page: false
 ---
 

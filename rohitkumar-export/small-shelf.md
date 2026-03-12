@@ -3,7 +3,6 @@ title: Our bookshelf will be smaller than we think
 slug: small-shelf
 published_date: 2025-05-11T08:15:00+00:00
 publish: true
-make_discoverable: true
 is_page: false
 ---
 

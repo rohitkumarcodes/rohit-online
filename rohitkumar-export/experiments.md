@@ -3,7 +3,6 @@ title: A few things I am experimenting with
 slug: experiments
 published_date: 2025-10-31T15:16:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 
@@ -18,7 +17,7 @@ I can't completely throw the phone out of my life. But I can keep it tamed. I've
 
 I try to keep the primary phone switched off for as much time as I can. I keep it switched off all night and for a good number of hours in the day. 
 
-<img src= "https://bear-images.sfo2.cdn.digitaloceanspaces.com/rohitkumar/photo_6064518376740031562_y.webp" alt="Keypad phone" width="500">
+<img src="/assets/images/imported/photo_6064518376740031562_y.webp" alt="Keypad phone" width="500">
 
 
 

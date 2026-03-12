@@ -3,7 +3,6 @@ title: What is helping me journal daily
 slug: jd
 published_date: 2025-04-10T17:32:00+00:00
 publish: true
-make_discoverable: false
 is_page: false
 ---
 
@@ -17,7 +16,7 @@ I failed at journaling 5-6 times before it finally stuck. Here are a few things 
 
 - I journal the [Derek Sivers way](https://sive.rs/dj) which means writing two types of journals. First, a daily journal for documenting and understanding daily life. Second, 'thoughts on' journals where I've made files on important topics in my life like friendship, love, technology, money, city, etc. and I update my thoughts on the topics regularly. I write in simple text files. This method keeps journaling minimal and effective.
 <figure style="text-align: center;">
-  <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/rohitkumar/gl-quill.webp" alt="gl-quill" width="300" style="display: block; margin: 0 auto;">
+  <img src="/assets/images/imported/gl-quill.webp" alt="gl-quill" width="300" style="display: block; margin: 0 auto;">
   <figcaption style="font-size: 0.9em; color: #666;">This is how I imagine myself writing daily journals</figcaption>
 </figure>
 

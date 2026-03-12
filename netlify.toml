@@ -1,5 +1,17 @@
+[[edge_functions]]
+  function = "feed-canonicalize"
+  path = "/feed"
+
+[[edge_functions]]
+  function = "feed-canonicalize"
+  path = "/feed/"
+
+[[edge_functions]]
+  function = "feed-canonicalize"
+  path = "/feed.xml"
+
 [[headers]]
-  for = "/feed"
+  for = "/feed/"
 
   [headers.values]
     Content-Type = "application/atom+xml; charset=UTF-8"

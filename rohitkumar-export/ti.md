@@ -3,7 +3,6 @@ title: Tech Independence
 slug: ti
 published_date: 2026-01-06T10:23:00+00:00
 publish: false
-make_discoverable: true
 is_page: false
 ---
 

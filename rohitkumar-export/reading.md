@@ -3,7 +3,6 @@ title: What it means to read a book
 slug: reading
 published_date: 2025-10-09T18:33:00+00:00
 publish: true
-make_discoverable: true
 is_page: false
 ---
 

@@ -3,7 +3,6 @@ title: What next?
 slug: next
 published_date: 2025-04-04T18:32:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 

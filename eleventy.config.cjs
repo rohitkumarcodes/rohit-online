@@ -27,7 +27,7 @@ function normalizeHref(href) {
   }
 
   if (href === "/feed/" || href === "/feed" || href === "/feed.xml") {
-    return { href: "/feed", external: false };
+    return { href: "/feed/", external: false };
   }
 
   try {
@@ -39,7 +39,7 @@ function normalizeHref(href) {
         parsed.pathname === "/feed" ||
         parsed.pathname === "/feed.xml"
       ) {
-        return { href: "/feed", external: false };
+        return { href: "/feed/", external: false };
       }
 
       const normalizedPath = `${parsed.pathname}${parsed.search}${parsed.hash}` || "/";
@@ -198,7 +198,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addTransform("normalize-bear-content", function (content, outputPath) {
-    if (!outputPath || !outputPath.endsWith(".html")) {
+    if (
+      !outputPath ||
+      !outputPath.endsWith(".html") ||
+      outputPath.endsWith("/feed/index.html")
+    ) {
       return content;
     }
 

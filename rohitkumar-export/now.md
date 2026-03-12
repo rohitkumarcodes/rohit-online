@@ -3,7 +3,6 @@ title: Now
 slug: now
 published_date: 2025-02-24T20:21:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 

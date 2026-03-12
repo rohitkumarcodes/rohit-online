@@ -3,7 +3,6 @@ title: Things that changed my life (not figuratively)
 slug: lc
 published_date: 2024-06-27T19:23:00+00:00
 publish: true
-make_discoverable: false
 is_page: false
 ---
 

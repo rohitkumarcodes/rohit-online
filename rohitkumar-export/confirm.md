@@ -3,7 +3,6 @@ title: Confirm your email
 slug: confirm
 published_date: 2025-05-01T14:47:00+00:00
 publish: true
-make_discoverable: false
 is_page: true
 ---
 
