@@ -58,3 +58,5 @@ Now, here are some quotes I want to keep revisiting. The list might change as I 
 22. We are what we repeatedly do. Excellence, then, is not an act, but a habit. – Aristotle
 
 23. If you have something wonderful, if you do not defend it, you will lose it. – Journalist Zeynep Tüfekçi
+
+24.  I write entirely to find out what I'm thinking, what I'm looking at, what I see and what it means. What I want and what I fear. ― Joan Didion 
