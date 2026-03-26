@@ -23,7 +23,7 @@ metadata:
     <link href="{{ post.url | absoluteUrl(site.url) }}"/>
     <updated>{{ post.date | rfc3339Date }}</updated>
     <id>{{ post.url | absoluteUrl(site.url) }}</id>
-    <content type="html">{{ post.templateContent | safeExternalLinks | htmlToAbsoluteUrls(site.url) | safe }}</content>
+    <content type="html">{{ post.templateContent | safeExternalLinks | htmlToAbsoluteUrls(site.url) }}</content>
   </entry>
   {% endfor %}
 </feed>
