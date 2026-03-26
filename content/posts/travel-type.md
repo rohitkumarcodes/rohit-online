@@ -23,7 +23,7 @@ I think “discovering your travel-type” should also be a phrase. At age 30, I
 - In Nainital, I was pissing my pants looking down the mountains, but I was also ecstatic looking at the greenery.
 
 <figure>
-  <video controls preload="metadata">
+  <video controls preload="metadata" poster="/assets/images/posts/travel-type/nirvana-hills-hotel-goa-poster.jpg">
     <source src="/assets/videos/posts/travel-type/nirvana-hills-hotel-goa.mp4" type="video/mp4">
   </video>
   <figcaption>Nirvana Hill Resort, Goa</figcaption>

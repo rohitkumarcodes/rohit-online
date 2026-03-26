@@ -27,6 +27,8 @@ If you want a visible caption, wrap the image in `figure` and use `figcaption`:
 </figure>
 ```
 
+The build automatically adds intrinsic dimensions for local images on normal pages. The Atom feed also applies a balanced preview cap, so you do not need to pre-scale source images just for feed readers.
+
 ## External Images
 
 External image URLs work, but site-hosted images are safer for anything important because you control the file and the link.
@@ -43,15 +45,22 @@ For video, choose the lightest option that works:
 
 If you want to keep the video in the repo, store it under `assets/videos/`. A clean convention is `assets/videos/posts/<slug>/`.
 
-Use the reusable `post-video` class for self-hosted videos. It keeps the player responsive on small screens and keeps the frame intentionally compact so portrait videos do not take over the page.
+Page styles already keep self-hosted videos intentionally compact on the site. If you want a rich preview in the Atom feed, add a `poster` attribute that points to an image under `assets/images/`. A clean convention is `assets/images/posts/<slug>/`.
 
-If you want a visible caption under the video, wrap it in `figure` and use `figcaption`.
+If you want a visible caption under the video, wrap it in `figure` and use `figcaption`. In the feed:
+
+- videos with a `poster` become linked poster previews
+- videos without a `poster` fall back to a link to the post
+- `iframe` embeds also fall back to a link to the post
 
 Example:
 
 ```html
 <figure>
-  <video class="post-video" controls preload="metadata">
+  <video
+    controls
+    preload="metadata"
+    poster="/assets/images/posts/my-post/walk-poster.jpg">
     <source src="/assets/videos/posts/my-post/walk.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>

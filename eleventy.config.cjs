@@ -1,6 +1,5 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const sizeOf = require("image-size");
-const path = require("path");
+const { injectIntrinsicImageDimensions, normalizeFeedMedia } = require("./scripts/feed-media.cjs");
 const SITE_HOSTS = new Set(["rohit.online", "www.rohit.online"]);
 const FEED_OUTPUT_PATH = "/feed/index.html";
 
@@ -86,6 +85,12 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("rfc3339Date", (value) => toDate(value).toISOString());
+  eleventyConfig.addFilter("feedMedia", (html, postUrl) =>
+    normalizeFeedMedia(html, {
+      postUrl,
+      rootDir: __dirname,
+    }),
+  );
   eleventyConfig.addFilter("safeExternalLinks", withSafeExternalLinks);
   eleventyConfig.addFilter("startsWithHeading", (html) => /^\s*<h[1-6]\b/i.test(html || ""));
   eleventyConfig.addFilter("plainExcerpt", (html, maxLength = 180) => {
@@ -109,25 +114,13 @@ module.exports = function (eleventyConfig) {
     return withSafeExternalLinks(content);
   });
 
-  eleventyConfig.addTransform("scale-images", function (content, outputPath) {
-    if (!outputPath || !outputPath.endsWith(".html")) {
+  eleventyConfig.addTransform("add-image-dimensions", function (content, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html") || outputPath.endsWith(FEED_OUTPUT_PATH)) {
       return content;
     }
 
-    return content.replace(/<img\b([^>]*)>/gi, (match, attrs) => {
-      const srcMatch = attrs.match(/\bsrc=(["'])(\/assets\/[^"']+)\1/i);
-      if (!srcMatch) return match;
-
-      if (/\bwidth\s*=/i.test(attrs)) return match;
-
-      try {
-        const filePath = path.join(__dirname, srcMatch[2]);
-        const dimensions = sizeOf(filePath);
-        const scaledWidth = Math.round(dimensions.width * 0.6);
-        return `<img${attrs} width="${scaledWidth}">`;
-      } catch {
-        return match;
-      }
+    return injectIntrinsicImageDimensions(content, {
+      rootDir: __dirname,
     });
   });
 

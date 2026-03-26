@@ -22,6 +22,14 @@ The entry content changes because the feed includes the rendered post body.
 
 However, the entry `<updated>` value comes from the post's `date`. If you edit the body but leave the date alone, the content in the feed changes, but some feed readers may not surface it as a newly updated item.
 
+## How do images and video show up in the feed?
+
+Images from local assets are automatically resized to a balanced preview size in the feed while keeping their aspect ratio.
+
+Self-hosted videos are not embedded directly in the feed. If a video has a `poster` attribute, the feed shows a linked poster preview. If it has no `poster`, the feed falls back to a link to the post.
+
+`iframe` embeds also fall back to a link to the post in the feed.
+
 ## Do edited old posts move back to the top of the feed?
 
 No. The feed order is based on the post `date`, not on file edit time.

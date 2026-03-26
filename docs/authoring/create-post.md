@@ -41,7 +41,8 @@ For images and video, follow the fuller guide in [media.md](./media.md). The sho
 
 - Put site-hosted images somewhere under `assets/images/`.
 - Reference them with Markdown like `![Alt text](/assets/images/your-file.webp)` or with raw HTML.
-- For video, prefer a plain link when that is enough. If you want an embed, use raw HTML such as an `iframe`.
+- For self-hosted video, use raw HTML and add a `poster` image if you want a rich preview in the Atom feed.
+- For hosted video, prefer a plain link when that is enough. If you want an embed on the page, use raw HTML such as an `iframe`.
 
 ## 5. Preview the Post
 

@@ -17,7 +17,10 @@
 
 ```html
 <figure>
-  <video class="post-video" controls preload="metadata">
+  <video
+    controls
+    preload="metadata"
+    poster="/assets/images/posts/my-post/walk-poster.jpg">
     <source src="/assets/videos/posts/my-post/walk.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
