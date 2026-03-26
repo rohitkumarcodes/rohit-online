@@ -39,7 +39,7 @@ I think “discovering your travel-type” should also be a phrase. At age 30, I
   <figcaption>Raj Bhavan, Nainital</figcaption>
 </figure>
 
-Instead of thinking I don’t know how to travel or I hate traveling, now I say there is a specific way I travel. There are certain things I like, certain things I hate, and even a few that I fear. It took a few journal entries on travelling to realise that
+Instead of thinking I don’t know how to travel or I hate traveling, now I say there is a certain way I travel. There are certain things I like, certain things I hate, and even a few that I fear. It took a few journal entries on travelling to realise that
 
 I like:
 
