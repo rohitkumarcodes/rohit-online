@@ -55,6 +55,19 @@ figcaption {
   display: block;
 }
 
+.content-body figure {
+  margin: 1rem 0;
+}
+
+.content-body figure > :is(img, video) {
+  margin: 0 auto;
+}
+
+.content-body figure > figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
 .inline {
   width: auto !important;
 }
@@ -106,7 +119,18 @@ figcaption {
 }
 
 .content-body img {
-  margin: 1rem 0;
+  max-height: 80vh;
+  object-fit: contain;
+  margin: 1rem auto;
+}
+
+.content-body video {
+  display: block;
+  width: 100%;
+  max-width: 24rem;
+  max-height: 55vh;
+  height: auto;
+  margin: 1rem auto;
 }
 
 .signup-shell {

@@ -1,4 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const sizeOf = require("image-size");
+const path = require("path");
 const SITE_HOSTS = new Set(["rohit.online", "www.rohit.online"]);
 const FEED_OUTPUT_PATH = "/feed/index.html";
 
@@ -105,6 +107,28 @@ module.exports = function (eleventyConfig) {
     }
 
     return withSafeExternalLinks(content);
+  });
+
+  eleventyConfig.addTransform("scale-images", function (content, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    return content.replace(/<img\b([^>]*)>/gi, (match, attrs) => {
+      const srcMatch = attrs.match(/\bsrc=(["'])(\/assets\/[^"']+)\1/i);
+      if (!srcMatch) return match;
+
+      if (/\bwidth\s*=/i.test(attrs)) return match;
+
+      try {
+        const filePath = path.join(__dirname, srcMatch[2]);
+        const dimensions = sizeOf(filePath);
+        const scaledWidth = Math.round(dimensions.width * 0.6);
+        return `<img${attrs} width="${scaledWidth}">`;
+      } catch {
+        return match;
+      }
+    });
   });
 
   return {
