@@ -22,7 +22,7 @@ Last updated on: 01 April, 2026
 
 - Do not use voice mode for writing prompt. We are less likely to edit our words when they are dictated with voice mode. But we are more likely to edit when we are already using keyboard. And editing your prompt to almost perfection is important.
 
-- Probably the second most important hack: ask AI to ask you questions that would help it give the answer better. I often fail at estimating how much context to provide to get the right answer. So, I let AI get context out of me.
+- I often fail at estimating how much context to provide to get the right answer. So, I let AI get context out of me. I Ask AI to ask me questions that would help it give a better answer.
 
 - Ask AI to help you with prompting. Give it the prompt that you have in mind, and then ask it to edit the prompt.
 
@@ -37,4 +37,4 @@ Last updated on: 01 April, 2026
     Don't save chats in your account. Don't rely on one company. Some day, you'll need to switch to a different chatbot. **All the important answers should be saved locally on your computer**, not in your chat account.
 
 
-- Last one: develop interest in AI. If you think you are going to spend 10-15 minutes on learning it, and then you will done -- you're wrong. It's fast moving world. If you want to stay, you'll have to put efforts. There is no shortcut. Putting efforts is the best practice.
+- Last one: develop interest in AI. Other than the practical, real stuff, spend 10-15 everyday asking random, silly questions to different models. Try to push their limits. This way, you'll understand them better. If you want to stay ahead, you'll have to put efforts. In a sense, putting efforts is another best practice.
