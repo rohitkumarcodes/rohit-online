@@ -31,9 +31,10 @@ I love conversing with friends, playing nine-ball pool, going down internet rabb
 
 And I love to love.
 
-<img src="/assets/images/imported/pxl_20250109_025507795-1.webp" width="500" alt="Rohit">
-
-<small>Happy me, because I saw an anthill so big for the first time</small>
+<figure>
+  <img src="/assets/images/imported/pxl_20250109_025507795-1.webp" alt="Rohit Kumar, trying to compare his height with a tall anthill">
+  <figcaption>Happy me, because I saw an anthill so big for the first time</figcaption>
+</figure>
 
 ## I Work
 I wrote political news for media startups for a few years. Now I help small to mid-sized businesses with their content marketing efforts. And I am planning to move to full-time creative writing. 
@@ -44,10 +45,10 @@ I've spent all my life either in my hometown or in Delhi. However, I am an inter
 ## I Talk
 Got any questions or just want to say hi? Feel free to mail me at hello (at) rohit.online
 
-<img src="/assets/images/imported/img_20250125_111822-2.webp" width="500" alt="Rohit">
-
-<small>Happy me, because I was exploring a new place with a good friend</small>
-
+<figure>
+  <img src="/assets/images/pages/about/rohit-jaipur-2.png" alt="Rohit Kumar, sitting in Jaigarh Fort, Jaipur">
+  <figcaption>Happy me, probably because my goofy friend Ishan cracked a joke</figcaption>
+</figure>
 
 
 

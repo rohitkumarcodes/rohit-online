@@ -45,4 +45,4 @@ Last updated on: 01 April, 2026
 
 - **Benchmark**: How do we test the smartness of humans? With standardised tests. How do we test the smartness of LLMs? With standarised tests. 
 
-    But for reasons unknown to humankind, the standarised are being called benchmarks. They are basically a set of questions, puzzles, and tasks with known, correct answers. Researchers feed these questions to the AI and grade how many it gets right. There are benchmarks related to general knowledge, math, coding, safety, etc.
+    But for reasons unknown to humankind, the standarised tests are being called benchmarks. They are basically a set of questions, puzzles, and tasks with known, correct answers. Researchers feed these questions to the AI and grade how many it gets right. There are benchmarks related to general knowledge, math, coding, safety, etc.
