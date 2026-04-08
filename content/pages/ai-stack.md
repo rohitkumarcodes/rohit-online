@@ -23,3 +23,5 @@ Last updated on: 01 April, 2026
   - For building web apps, websites, applications: any frontier tool like Cursor, OpenCode, Claude Code, Codex
 
 - **For image generation**: I don't really use image generation that much. But I know Nano Banana in Gemini (paid) is best.
+
+- **API**: For random small tasks that need an LLM API, I use a Gemma 4 Free API from aistudio.google.com.
