@@ -3,7 +3,7 @@ title: Current state of AI -- what it can and can't do
 date: 2026-04-05
 ---
 
-<small>Last updated on: 05 April, 2026</small>
+<small>Last updated on: 09 April, 2026</small>
 
 There are a lot of claims going around on social media about what AI can and can’t do. Whom to listen to; what to believe?
 
@@ -20,61 +20,58 @@ Now, I believe the current state of AI capabilities is following:
 ## What AI can do:
 
 ## It can code
-I am not a programmer, but [Simon Wilson](https://simonwillison.net) is. And he doesn’t have any incentive to deride or praise AI. Recently, he said on a [podcast](https://simonwillison.net/2026/Apr/2/lennys-podcast/) that 95% of his code is written by AI. And that code is high-quality.
+Anthropic's latest unreleased model Mythos found vulnerabilities in some of the some of the most complex and safest pieces of software humanity has ever produced. Computer science and software engineering still needs humans but coding has been pracitcally solved by LLMs.
 
-Most of the software Simon builds with or without AI is publicly available. His output is scrutinizable -- unlike that of some people who claim they are building god-knows-what with AI. If AI-generated code is good for him, it’s definitely good for me.
-
-He also mentioned that he’s using his 25 years of programming experience to use AI. That means an average person still might not build professional-grade software products. It takes technical expertise to get good code out of the AI agents.
-
-Arvid Kahl recently wrote something that sums up the current state of AI coding, “Devs are acting like they didn’t write slop code before AI.” If you are a senior developer who used to write elegant code, you can throw shades at AI. But if you’re below that grade, AI is writing really good code for you.
+One might ask that if coding is solved, why are there bugs in the software produced by companies like Google and Anthropic. If they can produce millions of lines of code a day, why aren't they adding features faster? My guess is that even these companies aren't adapted to the new paradigms yet. Hence, the bugs and slow progress.
 
 ## It can automate
 
-As I see it, the difference between software and simple automation is the scope of work. Software can do complex tasks; automation does tasks of a relatively small scope. And AI has completely solved automation for an average person.
+Explain some non-intelligent digital task that you repeat everyday and AI will write a Bash script or a Python script to automate the task.
 
-Explain some non-intelligent digital work that you need to repeat everyday and AI will write a Bash script or a Python script that will do the same.
-
-A good example of this is: I write daily journals and add pictures and videos to them. Over the years, my journal folder was going to be bloated because of media files. But AI took a few minutes to automate the compression of all the past and future media -- including audio, video, images, and PDFs.
+Example: I write daily journals and add pictures and videos along with each entry. Over the years, my journal folder was going to be bloated because of large media files. But AI took a few minutes to automate the compression of media including audio, video, images, and PDFs. Now, I only need to add files to the right folder, the rest is done by the automation script.
 
 ## It can help editing your writing
 
-I use AI almost every day to edit all types of write-ups. And it’s good at refining the core argument, organisation, pacing, and overall flow. It's so good at editing that if I were to hire a professional editor (within my limited resources), that human editor couldn't do the job any better. I am sure there are better editors, but no anyone that I could hire.
+I use AI almost every day to edit all types of write-ups. It’s good at refining the core argument, organisation, pacing, and overall flow. I am sure there are better editors, but none that I could hire.
 
-However, it takes a lot of prompting to come up with an AI-lead editing workflow. And like with the case of coding, you need to have writing and editing related vocabulary to get the best of AI.
+There are two problems with AI-lead editing:
+
+1) It takes a lot of prompting to come up with an AI-lead editing workflow. And like with the case of coding, you need to have writing and editing related vocabulary to get the best of it.
+
+2) If you keep accepting all of the editing suggestions given by AI, ultimately you'll end up having a typical, bland piece that feels like written by AI. So, you need to know where to stop taking AI editing suggestions.
+
 
 ## It can help making rational decisions
 
-First of all, an average human is not quite good at making rational decisions. Unless we consciously make efforts to think rationally, we keep making decisions that are driven by emotions, heuristics, and biases.
+Unless we consciously make efforts to be rational, we keep making decisions that are driven by emotions, heuristics, and biases. And it is okay to live a life that is not 100% rational. But there are certain areas of life where rationality is needed. 
 
-It is okay to live a life that is not 100% rational. I don’t want to think about rationality when I am sitting with my friends, just having a banter. But there are certain areas of life where it is important to take rational decisions. 
+Example: The industry I work in is getting toppled by AI. I need to make a few rational decisions to ensure that AI doesn’t derail my finances. I need to think rational about it.
 
-The industry I work in is getting toppled by AI. I need to make a few rational decisions to ensure that AI doesn’t derail my finances. For that task, I needed to take sound, rational decisions. 
+I tried my best to write a bullet-proof future plan. I submitted my plan to AI and voila! It found loopholes, inconsistencies in my rationales, and a few things that I completely overlooked. 
 
-I made my efforts to write a bullet-proof plan. I submitted my plan to AI and voila! It found loopholes, inconsistencies in my thought process, and some things that I completely overlooked. 
-
-That being said, I don’t want to delegate any tasks to AI that involve muscles I want to keep strong. I know delegation to AI is de-skilling. And I don't want to atrophy my rational-thinking muscles.
+That being said, I don’t want to delegate any tasks to AI that involve muscles I don't want to lose. If this keeps happening, I might loose my rational-thinking muscles. I am being lazy and I need to find an alternative to this.
 
 ## Learning new topics
 
-This might be the best use case of AI that people are not taking enough advatange of. An AI model is a patient teacher who is available to you 24*7, who can talk in a language how you want it talk (from beginner level to expert level).
+This might be the best use case of AI that is not taken enough advantage of. An AI model is a patient teacher who is available to you 24*7, who can explain at a level of your expertise.
 
-There used to be a time when I used to complaint to my friends that I wish had got better teachers at school and college. The human element is still missing, but at least on the theory part, I can complaint any more. There is not a topic left that I can't ask AI to explain to me in a language that I would understand.
+I used to complaint to my friends that I was taught teachers at school and college who didn't understand their subjects. The human element is still missing, but at least on the theory part, I can't complaint any more. There is not a topic left that I can't ask AI to explain to me in a language that I would understand.
 
-I'd tried learning programming many times before the arrival of AI. Now, I don't need to understand programming scratch -- from the syntax level --, but I ask it technical concepts almost on a daily basis. And I've started feeling quite confident in technical areas. If I come across a technical concept that I don't fear it, but I know the understanding is just a prompt away.
+I'd tried learning programming many times before the arrival of AI. Now, I don't need to understand programming from scratch, but I asking it to explain technical concepts as I encounter them. And I've started feeling quite confident in technical areas. If I come across a technical concept that I don't understand, I don't fear it as I know the understanding is just a prompt away.
 
-AI might be the biggest boon for people who consider themselves as life long learners.
+AI might turn out to be the biggest boon for life long learners.
 
 ## Cooking and meal planning
 
-Just ask: I have x, y, and z in my kitchen — what can I make? YouTube videos might still be the best source of recipes, but AI is good for discovery new recipes and for knowing what you can make with your limited sources. Once you know what you want to make, you can go to YouTube to watch recipe videos.
+YouTube videos might still be the best source of recipes, but AI is good for discovery new recipes and for knowing what you can make with your limited sources. Just ask: I have x, y, and z in my kitchen — what can I make? Once you know what you want to make, you can go to YouTube to watch recipe videos.
 
-Apart from discovery and suggestion, where AI beat YouTube recipe videos is asking questions. You can leave questions related to the recipe in the YouTube comments but the creator might or might not reply. But AI will try to clear your doubts related to any recipe.
+AI also beats YouTube recipe videos at getting answers. You can leave questions related to the recipe in the YouTube comments but the creator might or might not reply. But AI will answer everytime. It's answers might not be perfect, but they are a good place to start for less experienced cooks.
 
 ## Becoming a better health-informed person
 
-I live in a small town in North India. Here, most doctors give about < 2 minutes per visit to a patient. The reason behind this and its solution is a topic for another discussion. What's relevant here is that talking to AI about your health, symptoms, what a prescription means, what to eat and what to avoid, etc. in a level-headed manner is helpful. 
+I live in a small town in North India. Here, most doctors give about < 2 minutes per visit to a patient. The reason and solution of this problem is a topic for another discussion. What's relevant here is that given the scarcity of health related-resources in most places, talking to AI about your health, symptoms, what a prescription means, what to eat and what to avoid, etc. is helpful. 
 
-It is helpful becoming better health-informed pesron. And I've seen multiple of my friends doing the same. That being said, not everyone knows about hallucations are. AI might hallucinate and give you wrong information. Always be wary of that.
+That being said, AI might hallucinate and give you wrong information. Always be wary of that.
 
 ## Writing
 
@@ -82,15 +79,13 @@ AI can help you write emails, essays, comments, apologies, condolence messages, 
 
 "I write entirely to find out what I'm thinking, what I'm looking at, what I see and what it means. What I want and what I fear." ― Joan Didion
 
-The moment AI starts writing for you is the moment your brains cells start to get weaken.
-
 ## Creative brainstorming
 
-There are certain tasks that are small but still require a little bit of creativity, like coming up with a business name or a trip plan. The main hurdle is not that the task is hard, it is that you need something to start with. AI can help you start with that. 
+There are certain tasks that are tiny but still require a little bit of creativity, like coming up with a business name or a trip plan. The main hurdle is not that the task is hard, it is that you need something to start with. AI can help you with that. 
 
-Prompt whatever is in your mind, it will give you 5 bad ideas. You can notice what's good and what's bad in those ideas and can iterate from there. 
+Prompt whatever is in your mind, it will give you 5 bland ideas. You can notice what's good and what's bad in those ideas and can iterate from there. 
 
-However, I'll suggest you still try not to rely on AI even on such creative brainstorming because it's a creative act, not a mundane, robotic task. Still, you must, you can take suggestions from AI and work from there.
+However, I'll suggest you should still try to rely on AI as less as possible AI for such tiny creative brainstorming sessions.
 
 ## Creating Summaries
 

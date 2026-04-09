@@ -14,8 +14,9 @@ Last updated on: 01 April, 2026
 - I **never turn on the memory feature** because with that turned on:
   - AI makes a caricature of my personality. It picks up random things from random chats, and all the future answers are influenced by that caricature. If I ask it a legal question, it might save that in memory. Later on, it will give analogies related to law in an unrelated question. Maybe that was a one-time question. I don't want my answers painted by randomly picked chats.
   - It becomes a confirmation bias machine. It will pick up my likes and dislikes, my political inclination, etc. and will give answers that makes me happy. I don't want happiness from AI, I want truth.
+  - It doesn't show me what it's showing to the rest of the world. I want to hear its raw answer first, and then I might want it to tailor its answer for me. 
 
-- Instead of using the memory feature, you should add personal context/preference. Every AI chatbot has this feature. Go to settings, there you will find a feature named "Add personal preferences" or "Add personal context". With this feature, you can make your own caricature instead of letting AI do it. My personal preferences for Claude are:
+- Instead of using the memory feature, you should add personal context/preference. Every AI chatbot has this feature. Go to settings, there you will find a feature named "Add personal preferences" or "Add personal context". With this feature, you can thoughtfully make your own caricature instead of letting AI do it. My personal preferences for Claude are:
   - Think and explain from first principles. Do not worry about the token count. Never create artifacts unless I explicitly ask for them. 
 
 - Every single word of your prompt influences the quality of the AI's answer. Every. Single. Word. It matters whether your tone is formal or informal, whether you sound like a 20-year-old college student or a 40-year-old professional. Once you've written your prompt, re-read to see if you can state your problem in a more expressive, elegant way.
@@ -28,7 +29,7 @@ Last updated on: 01 April, 2026
 
 - If you want a solution from AI, don't tell it your thoughts about the solution. Ask a question, let it answer first. If you mention anything about the solution, its answer will be [anchored](https://en.wikipedia.org/wiki/Anchoring_effect) to your suggestion.
 
-  Tell AI what your problem is, give it the context of the problem, and then shut up. Let it answer. If you don't like the answer, then you say something about the solution. The current models are often smarter than us in many fields. Let's keep our ego in check; let's not make the AI dumb by saying something that we don't need to.
+  Tell AI what your problem is, give it the context of the problem, and then shut up. Let it answer. If you don't like the answer, then you say something about the solution. The current models are often smarter than us in many fields.
 
 - If AI's answer is something that you are going to use multiple times in the future, either:
     - Copy-paste the chat into a markdown file.
