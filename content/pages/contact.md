@@ -5,7 +5,6 @@ date: 2022-11-27T05:30:00+00:00
 
 Mail me at hello (at) rohit.online
 
-I don't use social media. Email conversations are my best way of finding new friends. 
+I don't use social media. Email conversations are my best way of talking to internet friends. 
 
-Send a short message, a long message, comment on any post -- whatever works for you. I intend to make this website a two-way conversation, not a stage where I speak and you listen.
-
+You can send a short message, long message, comment on any post, question, suggestion -- whatever works for you.
