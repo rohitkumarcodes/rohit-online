@@ -28,7 +28,5 @@ I've added only those books that I read after 17 Feb, 2025. The list is fluid. (
 9. Hiroshima by John Hersey
 10. How to Think More Effectively by The School of Life
 11. Anything You Want: 40 Lessons for a New Kind of Entrepreneur by Derek Sivers
-
-![The Travelling Companions by Augustus Leopold Egg](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Augustus_Leopold_Egg_-_The_Travelling_Companions_-_Google_Art_Project.jpg/722px-Augustus_Leopold_Egg_-_The_Travelling_Companions_-_Google_Art_Project.jpg)
-<small>[The Travelling Companions by Augustus Leopold Egg]</small>
+12. Endurance: Shackleton's Incredible Voyage by Alfred Lansing
 

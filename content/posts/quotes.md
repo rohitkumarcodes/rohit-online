@@ -47,7 +47,7 @@ Now, here are some quotes I want to keep revisiting. The list might change as I 
 
 17. I see young men, my townsmen, whose misfortune it is to have inherited farms, houses, barns, cattle, and farming tools; for these are more easily acquired than got rid of. Better if they had been born in the open pasture and suckled by a wolf, that they might have seen with clearer eyes what field they were called to labor in. Who made them serfs of the soil? Why should they eat their sixty acres, when man is condemned to eat only his peck of dirt? Why should they begin digging their graves as soon as they are born? ― Henry David Thoreau (I couldn't help but publish the whole paragraph instead of only the first sentence.)
 
-18. Hard work is a great excuse for our minds. When the ego comes attacking, asking why you didn't make it, hard work gives you the ammunition that I tried, I didn't sit on the couch. So I am okay. -- From the internet
+18. Hard work is a great excuse for our minds. When the ego comes attacking, asking why you didn't make it, hard work gives you the ammunition that I tried, I didn't sit on the couch. So I am okay. ― From the internet
 
 19. Kings and philosophers shit, and so do ladies. ― Michel de Montaigne
 
@@ -55,10 +55,16 @@ Now, here are some quotes I want to keep revisiting. The list might change as I 
 
 21. Human nature is not a machine to be built after a model, and set to do exactly the work prescribed for it, but a tree, which requires to grow and develop itself on all sides, according to the tendency of the inward forces which make it a living thing. ― John Stuart Mill
 
-22. We are what we repeatedly do. Excellence, then, is not an act, but a habit. – Aristotle
+22. We are what we repeatedly do. Excellence, then, is not an act, but a habit. – Will Durant
 
 23. If you have something wonderful, if you do not defend it, you will lose it. – Journalist Zeynep Tüfekçi
 
 24.  I write entirely to find out what I'm thinking, what I'm looking at, what I see and what it means. What I want and what I fear. ― Joan Didion 
 
 25. What is mine that I am afraid to lose?
+
+26. To attain knowledge, add things every day. To attain wisdom, remove things every day. ― Lao Tzu
+
+27. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable. - Socrates
+
+

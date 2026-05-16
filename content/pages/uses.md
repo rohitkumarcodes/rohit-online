@@ -22,11 +22,12 @@ date: 2025-04-01T17:29:00+00:00
 ## Software
 
 - NetNewsWire feed reader
-- Firefox and Zen browser
+- Firefox and Brave browser
 - Lithium ebook reader on Android
 - LibreOffice office suite
 - Micro for writing in terminal
-- Nota.md for note taking/simple text files editing
+- Zettlr for note taking/simple text files editing
+- Proton for email, VPN, and password manager
 
 ## Other Subscriptions
 
