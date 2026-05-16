@@ -3,7 +3,7 @@ title: Now
 date: 2025-02-24T20:21:00+00:00
 ---
 
-Last Updated: 29 April, 2026
+Last Updated: 16 May, 2026
 
 ## What am I doing these days?
 
@@ -12,7 +12,7 @@ I live in Mandi Dabwali, a small town in Haryana, North India.
 
 ### Reading
 
-I am reading *Faraday, Maxwell, and the Electromagnetic Field: How Two Men Revolutionized Physics* by *Basil Mahon* and *Nancy Forbes*
+I am reading Atomic Habits by James Clear
 
 
 ### Health
@@ -26,4 +26,4 @@ Right now, I am enjoying learning how to use the terminal.
 
 ## Work
 
-I am building an RSS/Atom feed reader webapp
+I am building an RSS/Atom feed reader webapp. More updates on that soon...
