@@ -1,12 +1,11 @@
 ---
-title: One more step
+title: One more step!
 date: 2025-04-01T17:29:00+00:00
 ---
 
-One more step!
 
 I just sent you a confirmation email. I have to do this to make sure random bots aren't signing up.
 
-Open your inbox and *click the confirmation link* to complete your signup.
+Open your inbox and **click the confirmation link** to complete your signup.
 
-Not seeing it? *Check your spam folder*.
+Not seeing it? **Check your spam folder**.
