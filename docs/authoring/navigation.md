@@ -1,6 +1,6 @@
 # Add or Edit Navigation
 
-The main site navigation is managed manually in `_data/site.js`. The public site URL in that file is `https://www.rohit.onl`.
+The main site navigation is managed manually in `_data/site.js`. The public site URL in that file is `https://rohit.onl`.
 
 ## 1. Edit the Navigation Array
 

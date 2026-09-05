@@ -3,7 +3,7 @@ title: AI is killing the open web. Who can stop it?
 date: 2025-05-19T08:47:00+00:00
 ---
 
-My website is www.rohit.onl. You can visit it from your home computer, your office computer, from anywhere in your home country, or anywhere on the planet. You don’t need to login or pay anything.
+My website is rohit.onl. You can visit it from your home computer, your office computer, from anywhere in your home country, or anywhere on the planet. You don’t need to login or pay anything.
 
 Your website is www.[YOUR-WEBSITE].com. I can visit it from my home computer, my office computer, from anywhere in my home country, or from anywhere on the planet. I don’t need to login or pay anything.
 

@@ -13,7 +13,7 @@ function isExternalHttpHref(href) {
   }
 
   try {
-    const url = new URL(href, "https://www.rohit.onl");
+    const url = new URL(href, "https://rohit.onl");
     if (url.protocol !== "http:" && url.protocol !== "https:") {
       return false;
     }

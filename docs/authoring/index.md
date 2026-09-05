@@ -6,7 +6,7 @@ This handbook is the internal source of truth for adding and editing content on 
 
 - Blog posts live in `content/posts/`.
 - Pages live in `content/pages/`.
-- Shared navigation and the public site URL (`https://www.rohit.onl`) live in `_data/site.js`.
+- Shared navigation and the public site URL (`https://rohit.onl`) live in `_data/site.js`.
 - The blog index lives at `content/pages/posts.njk`.
 - The feed lives at `feed.njk`.
 - Images and other passthrough assets live under `assets/`.

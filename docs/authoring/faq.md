@@ -58,7 +58,7 @@ That keeps the page buildable while excluding it from `collections.publishedPost
 
 ## What is the public site URL?
 
-`https://www.rohit.onl`. It is set as `url` in `_data/site.js` and is used for canonical links and absolute feed URLs. The public contact address is `hello@rohit.onl`.
+`https://rohit.onl`. It is set as `url` in `_data/site.js` and is used for canonical links and absolute feed URLs. The public contact address is `hello@rohit.onl`.
 
 ## How are URLs chosen?
 

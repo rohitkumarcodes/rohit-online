@@ -2,7 +2,7 @@ module.exports = {
   title: "Rohit Kumar",
   description:
     "Hey, I am Rohit Kumar. I am a writer, reader, walker, and conversationalist. Read my bio here, blog posts here, or know what I am doing these days here...",
-  url: "https://www.rohit.onl",
+  url: "https://rohit.onl",
   language: "en",
   author: {
     name: "Rohit Kumar",
