@@ -1,9 +1,3 @@
-[[redirects]]
-  from = "https://rohit.onl/*"
-  to = "https://www.rohit.onl/:splat"
-  status = 301
-  force = true
-
 [[edge_functions]]
   function = "feed-canonicalize"
   path = "/feed"
