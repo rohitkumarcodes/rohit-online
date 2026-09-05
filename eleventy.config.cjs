@@ -1,6 +1,11 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { injectIntrinsicImageDimensions, normalizeFeedMedia } = require("./scripts/feed-media.cjs");
-const SITE_HOSTS = new Set(["rohit.online", "www.rohit.online"]);
+const SITE_HOSTS = new Set([
+  "rohit.onl",
+  "www.rohit.onl",
+  "rohit.online",
+  "www.rohit.online",
+]);
 const FEED_OUTPUT_PATH = "/feed/index.html";
 
 function toDate(value) {
@@ -13,7 +18,7 @@ function isExternalHttpHref(href) {
   }
 
   try {
-    const url = new URL(href, "https://rohit.online");
+    const url = new URL(href, "https://www.rohit.onl");
     if (url.protocol !== "http:" && url.protocol !== "https:") {
       return false;
     }

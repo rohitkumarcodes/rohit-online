@@ -5,7 +5,7 @@ description: Use for frontend work on this Eleventy site: layouts, pages, stylin
 
 # Eleventy Frontend
 
-Use this skill when changing the UI or rendered output of `rohit.online`.
+Use this skill when changing the UI or rendered output of `https://www.rohit.onl`.
 
 ## Use When
 

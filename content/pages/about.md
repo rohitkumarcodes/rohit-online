@@ -43,7 +43,7 @@ I wrote political news for media startups for a few years. Now I help small to m
 I've spent all my life either in my hometown or in Delhi. However, I am an internet native at heart. I found the first love of my life on the internet. I’ve found many good friends on the Internet. And I've found you (we might become friends someday, who knows) on the internet.
 
 ## I Talk
-Got any questions or just want to say hi? Feel free to mail me at hello (at) rohit.online
+Got any questions or just want to say hi? Feel free to mail me at hello (at) rohit.onl
 
 <figure>
   <img src="/assets/images/pages/about/rohit-jaipur-2.png" alt="Rohit Kumar, sitting in Jaigarh Fort, Jaipur">

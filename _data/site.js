@@ -2,11 +2,11 @@ module.exports = {
   title: "Rohit Kumar",
   description:
     "Hey, I am Rohit Kumar. I am a writer, reader, walker, and conversationalist. Read my bio here, blog posts here, or know what I am doing these days here...",
-  url: "https://rohit.online",
+  url: "https://www.rohit.onl",
   language: "en",
   author: {
     name: "Rohit Kumar",
-    email: "hello@rohit.online",
+    email: "hello@rohit.onl",
   },
   logoText: "Rohit Kumar",
   navigation: [

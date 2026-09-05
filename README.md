@@ -1,6 +1,6 @@
-# rohit.online
+# rohit.onl
 
-This repository contains the Eleventy source for `rohit.online`.
+This repository contains the Eleventy source for `https://www.rohit.onl`.
 
 ## Internal Authoring Handbook
 
