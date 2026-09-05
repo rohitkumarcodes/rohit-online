@@ -60,8 +60,6 @@ That keeps the page buildable while excluding it from `collections.publishedPost
 
 `https://www.rohit.onl`. It is set as `url` in `_data/site.js` and is used for canonical links and absolute feed URLs. The public contact address is `hello@rohit.onl`.
 
-Do not use `rohit.online` as the site URL or email domain.
-
 ## How are URLs chosen?
 
 The filename becomes the slug.

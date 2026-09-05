@@ -1,16 +1,4 @@
 [[redirects]]
-  from = "https://rohit.online/*"
-  to = "https://www.rohit.onl/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.rohit.online/*"
-  to = "https://www.rohit.onl/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "https://rohit.onl/*"
   to = "https://www.rohit.onl/:splat"
   status = 301

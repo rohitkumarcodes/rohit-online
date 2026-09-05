@@ -1,11 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { injectIntrinsicImageDimensions, normalizeFeedMedia } = require("./scripts/feed-media.cjs");
-const SITE_HOSTS = new Set([
-  "rohit.onl",
-  "www.rohit.onl",
-  "rohit.online",
-  "www.rohit.online",
-]);
+const SITE_HOSTS = new Set(["rohit.onl", "www.rohit.onl"]);
 const FEED_OUTPUT_PATH = "/feed/index.html";
 
 function toDate(value) {
