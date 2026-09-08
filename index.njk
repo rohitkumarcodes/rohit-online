@@ -26,18 +26,15 @@ eleventyExcludeFromCollections: true
   (function () {
     var photos = {{ homePics | dump | safe }};
     var pick = photos[Math.floor(Math.random() * photos.length)];
-    var src = pick.url;
-    var host = location.hostname;
-    if (host !== "localhost" && host !== "127.0.0.1") {
-        src = "/.netlify/images?url=" + pick.url + "&w=1200";
-    }
-
     var img = document.createElement("img");
-    img.src = src;
+    img.src = pick.url;
+    img.srcset = pick.srcset;
+    img.sizes = pick.sizes;
     img.alt = "A photo from home";
     img.width = pick.width;
     img.height = pick.height;
     img.decoding = "async";
+    img.setAttribute("fetchpriority", "high");
     document.getElementById("homepage-photo").appendChild(img);
   })();
 </script>
@@ -45,6 +42,8 @@ eleventyExcludeFromCollections: true
   <p class="homepage-photo">
     <img
       src="{{ homePics[0].url }}"
+      srcset="{{ homePics[0].srcset }}"
+      sizes="{{ homePics[0].sizes }}"
       alt="A photo from home"
       width="{{ homePics[0].width }}"
       height="{{ homePics[0].height }}"

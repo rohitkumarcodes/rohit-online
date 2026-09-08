@@ -83,7 +83,7 @@ Yes. You can use normal Markdown plus small raw HTML snippets. See [media.md](./
 
 ## How do I change the homepage photo?
 
-Put photos in `assets/images/home/`. The homepage chooses one at random each time someone visits. Add or remove files in that folder, then rebuild.
+Put photos in `assets/images/home/`, run `pnpm optimize:home`, then rebuild. The homepage chooses one at random each time someone visits.
 
 See [media.md](./media.md) for the homepage photo details.
 

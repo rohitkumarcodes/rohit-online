@@ -35,9 +35,8 @@ The homepage picks one photo at random from `assets/images/home/` on each visit.
 
 - Drop `.jpg`, `.jpeg`, `.png`, `.webp`, or `.gif` files in `assets/images/home/`.
 - Use short lowercase kebab-case filenames, such as `plumeria-in-hand.jpg`.
-- Remove a file from that folder to take it out of the rotation.
-
-On the live site the chosen photo is resized through Netlify Image CDN. Local `pnpm dev` serves the original files.
+- Run `pnpm optimize:home` after adding or replacing photos. That command writes compressed WebP files at 640px and 1280px wide and removes the camera-sized originals.
+- Remove a photo's WebP files from that folder to take it out of the rotation.
 
 ## External Images
 

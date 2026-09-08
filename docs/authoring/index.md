@@ -26,6 +26,7 @@ This handbook is the internal source of truth for adding and editing content on 
 - Use ISO 8601 timestamps with a timezone offset in front matter.
 - Internal links should be root-relative, such as `/posts/`.
 - Run `pnpm build` before shipping content changes.
+- After adding homepage photos, run `pnpm optimize:home` so the live files stay small.
 - If you change authoring behavior, update the matching handbook docs in the same change.
 
 ## When This Handbook Must Be Updated
