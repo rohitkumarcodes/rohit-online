@@ -21,35 +21,20 @@ eleventyExcludeFromCollections: true
 </section>
 
 {% if homePics.length %}
-<p class="homepage-photo" id="homepage-photo"></p>
-<script>
-  (function () {
-    var photos = {{ homePics | dump | safe }};
-    var pick = photos[Math.floor(Math.random() * photos.length)];
-    var img = document.createElement("img");
-    img.src = pick.url;
-    img.srcset = pick.srcset;
-    img.sizes = pick.sizes;
-    img.alt = "A photo from home";
-    img.width = pick.width;
-    img.height = pick.height;
-    img.decoding = "async";
-    img.setAttribute("fetchpriority", "high");
-    document.getElementById("homepage-photo").appendChild(img);
-  })();
-</script>
-<noscript>
-  <p class="homepage-photo">
-    <img
-      src="{{ homePics[0].url }}"
-      srcset="{{ homePics[0].srcset }}"
-      sizes="{{ homePics[0].sizes }}"
-      alt="A photo from home"
-      width="{{ homePics[0].width }}"
-      height="{{ homePics[0].height }}"
-    >
-  </p>
-</noscript>
+<p class="homepage-photo">
+  <img
+    id="homepage-photo-img"
+    src="{{ homePics[0].url }}"
+    srcset="{{ homePics[0].srcset }}"
+    sizes="{{ homePics[0].sizes }}"
+    alt="A photo from home"
+    width="{{ homePics[0].width }}"
+    height="{{ homePics[0].height }}"
+    decoding="async"
+    fetchpriority="high"
+  >
+</p>
+<script type="application/json" id="homepage-photos">{{ homePics | dump | safe }}</script>
 {% endif %}
 
 <p><small>You can subscribe via <a href="/feed/">RSS</a> or start a friendly <a href="/contact/">conversation</a>.</small></p>

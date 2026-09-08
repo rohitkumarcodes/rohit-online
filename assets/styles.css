@@ -26,7 +26,10 @@ img {
 }
 
 .homepage-photo img {
-  max-height: 80vh;
+  max-width: 100%;
+  max-height: min(40vh, 22rem);
+  width: auto;
+  height: auto;
   object-fit: contain;
   margin: 1rem auto;
 }

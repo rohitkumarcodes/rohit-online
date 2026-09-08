@@ -16,6 +16,7 @@
 - `content/pages/posts.njk`
 - `feed.njk`
 - `eleventy.config.cjs`
+- `netlify.toml` when homepage or feed edge behavior changes
 - `package.json` when authoring/build commands change
 
 ## Matching Guides

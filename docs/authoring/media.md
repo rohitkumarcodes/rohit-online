@@ -31,7 +31,7 @@ The build automatically adds intrinsic dimensions for local images on normal pag
 
 ## Homepage photos
 
-The homepage picks one photo at random from `assets/images/home/` on each visit.
+The homepage picks one photo at random from `assets/images/home/` on each visit. On Netlify, an edge function does that pick so the chosen image is already in the HTML. `pnpm dev` shows the first photo; `netlify dev` or a deploy shows the random rotation.
 
 - Drop `.jpg`, `.jpeg`, `.png`, `.webp`, or `.gif` files in `assets/images/home/`.
 - Use short lowercase kebab-case filenames, such as `plumeria-in-hand.jpg`.
