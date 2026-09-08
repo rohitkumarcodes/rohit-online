@@ -81,6 +81,12 @@ For pages, it is optional. If the page body starts with a heading, the page layo
 
 Yes. You can use normal Markdown plus small raw HTML snippets. See [media.md](./media.md).
 
+## How do I change the homepage photo?
+
+Put photos in `assets/images/home/`. The homepage chooses one at random each time someone visits. Add or remove files in that folder, then rebuild.
+
+See [media.md](./media.md) for the homepage photo details.
+
 ## Does adding a page also add it to the menu?
 
 No. Navigation is manual and lives in `_data/site.js`.

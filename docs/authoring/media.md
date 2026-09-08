@@ -29,6 +29,16 @@ If you want a visible caption, wrap the image in `figure` and use `figcaption`:
 
 The build automatically adds intrinsic dimensions for local images on normal pages. The Atom feed also applies a balanced preview cap, so you do not need to pre-scale source images just for feed readers.
 
+## Homepage photos
+
+The homepage picks one photo at random from `assets/images/home/` on each visit.
+
+- Drop `.jpg`, `.jpeg`, `.png`, `.webp`, or `.gif` files in `assets/images/home/`.
+- Use short lowercase kebab-case filenames, such as `plumeria-in-hand.jpg`.
+- Remove a file from that folder to take it out of the rotation.
+
+On the live site the chosen photo is resized through Netlify Image CDN. Local `pnpm dev` serves the original files.
+
 ## External Images
 
 External image URLs work, but site-hosted images are safer for anything important because you control the file and the link.

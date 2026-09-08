@@ -20,6 +20,37 @@ eleventyExcludeFromCollections: true
   </ul>
 </section>
 
-<p><img src="/assets/images/homepage.webp" alt="Homepage illustration"></p>
+{% if homePics.length %}
+<p class="homepage-photo" id="homepage-photo"></p>
+<script>
+  (function () {
+    var photos = {{ homePics | dump | safe }};
+    var pick = photos[Math.floor(Math.random() * photos.length)];
+    var src = pick.url;
+    var host = location.hostname;
+    if (host !== "localhost" && host !== "127.0.0.1") {
+        src = "/.netlify/images?url=" + pick.url + "&w=1200";
+    }
+
+    var img = document.createElement("img");
+    img.src = src;
+    img.alt = "A photo from home";
+    img.width = pick.width;
+    img.height = pick.height;
+    img.decoding = "async";
+    document.getElementById("homepage-photo").appendChild(img);
+  })();
+</script>
+<noscript>
+  <p class="homepage-photo">
+    <img
+      src="{{ homePics[0].url }}"
+      alt="A photo from home"
+      width="{{ homePics[0].width }}"
+      height="{{ homePics[0].height }}"
+    >
+  </p>
+</noscript>
+{% endif %}
 
 <p><small>You can subscribe via <a href="/feed/">RSS</a> or start a friendly <a href="/contact/">conversation</a>.</small></p>

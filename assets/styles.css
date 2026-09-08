@@ -25,6 +25,12 @@ img {
   height: auto;
 }
 
+.homepage-photo img {
+  max-height: 80vh;
+  object-fit: contain;
+  margin: 1rem auto;
+}
+
 table {
   display: block;
   width: 100%;

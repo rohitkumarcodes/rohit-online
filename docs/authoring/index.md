@@ -10,6 +10,7 @@ This handbook is the internal source of truth for adding and editing content on 
 - The blog index lives at `content/pages/posts.njk`.
 - The feed lives at `feed.njk`.
 - Images and other passthrough assets live under `assets/`.
+- Homepage rotation photos live in `assets/images/home/`.
 
 ## Start Here
 
