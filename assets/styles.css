@@ -25,13 +25,18 @@ img {
   height: auto;
 }
 
+.homepage-photo {
+  margin: 2rem 0 1.5rem;
+  padding-inline-start: 1.5rem;
+}
+
 .homepage-photo img {
   max-width: 100%;
   max-height: min(40vh, 22rem);
   width: auto;
   height: auto;
   object-fit: contain;
-  margin: 1rem auto;
+  margin: 0;
 }
 
 table {

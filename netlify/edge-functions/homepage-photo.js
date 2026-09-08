@@ -18,7 +18,7 @@ export function pickHomePhoto(photos, random = Math.random) {
 }
 
 export function renderHomePhotoTag(photo) {
-  return `<img id="homepage-photo-img" src="${escapeAttr(photo.url)}" srcset="${escapeAttr(photo.srcset)}" sizes="${escapeAttr(photo.sizes)}" alt="A photo from home" width="${escapeAttr(photo.width)}" height="${escapeAttr(photo.height)}" decoding="async" fetchpriority="high">`;
+  return `<img id="homepage-photo-img" data-home-photo-picked src="${escapeAttr(photo.url)}" srcset="${escapeAttr(photo.srcset)}" sizes="${escapeAttr(photo.sizes)}" alt="A photo from home" width="${escapeAttr(photo.width)}" height="${escapeAttr(photo.height)}" decoding="async" fetchpriority="high">`;
 }
 
 export function applyRandomHomePhoto(html, random = Math.random) {

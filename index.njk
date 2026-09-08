@@ -35,6 +35,37 @@ eleventyExcludeFromCollections: true
   >
 </p>
 <script type="application/json" id="homepage-photos">{{ homePics | dump | safe }}</script>
+<script>
+  (function () {
+    var img = document.getElementById("homepage-photo-img");
+    if (!img || img.hasAttribute("data-home-photo-picked")) {
+      return;
+    }
+
+    var photosNode = document.getElementById("homepage-photos");
+    if (!photosNode) {
+      return;
+    }
+
+    var photos;
+    try {
+      photos = JSON.parse(photosNode.textContent);
+    } catch (error) {
+      return;
+    }
+
+    if (!photos || !photos.length) {
+      return;
+    }
+
+    var pick = photos[Math.floor(Math.random() * photos.length)];
+    img.src = pick.url;
+    img.srcset = pick.srcset;
+    img.sizes = pick.sizes;
+    img.width = pick.width;
+    img.height = pick.height;
+  })();
+</script>
 {% endif %}
 
 <p><small>You can subscribe via <a href="/feed/">RSS</a> or start a friendly <a href="/contact/">conversation</a>.</small></p>

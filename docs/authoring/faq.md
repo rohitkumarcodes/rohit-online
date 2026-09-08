@@ -83,7 +83,7 @@ Yes. You can use normal Markdown plus small raw HTML snippets. See [media.md](./
 
 ## How do I change the homepage photo?
 
-Put photos in `assets/images/home/`, run `pnpm optimize:home`, then rebuild. On the live site a Netlify edge function chooses one at random each visit so the image can start loading with the page. Local `pnpm dev` shows the first photo.
+Put photos in `assets/images/home/`, run `pnpm optimize:home`, then rebuild. On the live site a Netlify edge function chooses one at random each visit so the image can start loading with the page. Local `pnpm dev` also rotates on each refresh.
 
 See [media.md](./media.md) for the homepage photo details.
 

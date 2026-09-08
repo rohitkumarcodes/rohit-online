@@ -17,6 +17,7 @@ test("applyRandomHomePhoto swaps the homepage image from embedded JSON", async (
   const output = applyRandomHomePhoto(html, () => 0);
 
   assert.match(output, /id="homepage-photo-img"/);
+  assert.match(output, /data-home-photo-picked/);
   assert.match(output, /src="\/assets\/images\/home\/b.webp"/);
   assert.match(output, /srcset="\/b-640.webp 640w, \/b.webp 1280w"/);
   assert.match(output, /width="1280"/);
