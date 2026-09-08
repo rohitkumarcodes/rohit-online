@@ -1,12 +1,4 @@
 [[edge_functions]]
-  function = "homepage-photo"
-  path = "/"
-
-[[edge_functions]]
-  function = "homepage-photo"
-  path = "/index.html"
-
-[[edge_functions]]
   function = "feed-canonicalize"
   path = "/feed"
 

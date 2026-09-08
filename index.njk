@@ -20,52 +20,17 @@ eleventyExcludeFromCollections: true
   </ul>
 </section>
 
-{% if homePics.length %}
 <p class="homepage-photo">
   <img
-    id="homepage-photo-img"
-    src="{{ homePics[0].url }}"
-    srcset="{{ homePics[0].srcset }}"
-    sizes="{{ homePics[0].sizes }}"
-    alt="A photo from home"
-    width="{{ homePics[0].width }}"
-    height="{{ homePics[0].height }}"
+    src="/assets/images/home/pink-oleander.webp"
+    srcset="/assets/images/home/pink-oleander-640.webp 640w, /assets/images/home/pink-oleander.webp 1280w"
+    sizes="(max-width: 42rem) calc(100vw - 2rem), 42rem"
+    alt="Pink oleander"
+    width="1280"
+    height="1707"
     decoding="async"
     fetchpriority="high"
   >
 </p>
-<script type="application/json" id="homepage-photos">{{ homePics | dump | safe }}</script>
-<script>
-  (function () {
-    var img = document.getElementById("homepage-photo-img");
-    if (!img || img.hasAttribute("data-home-photo-picked")) {
-      return;
-    }
-
-    var photosNode = document.getElementById("homepage-photos");
-    if (!photosNode) {
-      return;
-    }
-
-    var photos;
-    try {
-      photos = JSON.parse(photosNode.textContent);
-    } catch (error) {
-      return;
-    }
-
-    if (!photos || !photos.length) {
-      return;
-    }
-
-    var pick = photos[Math.floor(Math.random() * photos.length)];
-    img.src = pick.url;
-    img.srcset = pick.srcset;
-    img.sizes = pick.sizes;
-    img.width = pick.width;
-    img.height = pick.height;
-  })();
-</script>
-{% endif %}
 
 <p><small>You can subscribe via <a href="/feed/">RSS</a> or start a friendly <a href="/contact/">conversation</a>.</small></p>

@@ -29,14 +29,9 @@ If you want a visible caption, wrap the image in `figure` and use `figcaption`:
 
 The build automatically adds intrinsic dimensions for local images on normal pages. The Atom feed also applies a balanced preview cap, so you do not need to pre-scale source images just for feed readers.
 
-## Homepage photos
+## Homepage photo
 
-The homepage picks one photo at random from `assets/images/home/` on each visit. On Netlify, an edge function does that pick so the chosen image is already in the HTML. Local `pnpm dev` picks in the browser on each refresh.
-
-- Drop `.jpg`, `.jpeg`, `.png`, `.webp`, or `.gif` files in `assets/images/home/`.
-- Use short lowercase kebab-case filenames, such as `plumeria-in-hand.jpg`.
-- Run `pnpm optimize:home` after adding or replacing photos. That command writes compressed WebP files at 640px and 1280px wide and removes the camera-sized originals.
-- Remove a photo's WebP files from that folder to take it out of the rotation.
+The homepage image is `assets/images/home/pink-oleander.webp`, with a 640px companion file for smaller screens. To replace it, swap those files and update the `<img>` in `index.njk`.
 
 ## External Images
 

@@ -10,7 +10,7 @@ This handbook is the internal source of truth for adding and editing content on 
 - The blog index lives at `content/pages/posts.njk`.
 - The feed lives at `feed.njk`.
 - Images and other passthrough assets live under `assets/`.
-- Homepage rotation photos live in `assets/images/home/`.
+- The homepage photo lives in `assets/images/home/`.
 
 ## Start Here
 
@@ -26,7 +26,6 @@ This handbook is the internal source of truth for adding and editing content on 
 - Use ISO 8601 timestamps with a timezone offset in front matter.
 - Internal links should be root-relative, such as `/posts/`.
 - Run `pnpm build` before shipping content changes.
-- After adding homepage photos, run `pnpm optimize:home` so the live files stay small.
 - If you change authoring behavior, update the matching handbook docs in the same change.
 
 ## When This Handbook Must Be Updated
@@ -41,7 +40,7 @@ Review the handbook whenever changes touch:
 - `content/pages/posts.njk`
 - `feed.njk`
 - `eleventy.config.cjs`
-- `netlify.toml` when homepage or feed edge behavior changes
+- `netlify.toml` when feed edge behavior changes
 - `package.json` when authoring/build commands change
 
 ## Reusable Snippets
