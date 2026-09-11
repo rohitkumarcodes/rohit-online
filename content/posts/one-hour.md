@@ -11,7 +11,7 @@ When I ask if he studies or not, he always says he hasn't studied much yet, but 
 
 For the entire past year, I kept asking him to study for an hour daily (apart from attending classes). Just an hour. How hard could that be?
 
-He barely passed his first year. It's been a few months since he entered his second year. I've been telling him again to study. His parents will pay around 1.25-1.5 crores ($125–150k) for his degree. I keep reminding him how much his hard-earned money parents are paying. But he just doesn't listen.
+He barely passed his first year. It's been a few months since he entered his second year. I've been telling him again to study. His parents will pay around 1.25-1.5 crores ($125–150k) for his degree. I keep reminding him how much hard-earned money his parents are paying. But he just doesn't listen.
 
 This has really started getting on my nerves. YOU SON OF A GUN, WHY CAN'T YOU STUDY FOR JUST AN HOUR? IS THIS HOW YOU WILL BECOME A DOCTOR?
 

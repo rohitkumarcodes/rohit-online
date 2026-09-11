@@ -30,12 +30,12 @@ I think “discovering your travel-type” should also be a phrase. At age 30, I
 </figure>
 
 <figure>
-  <img src="/assets/images/posts/travel-type/nainital-1.jpg" alt="A bunch of trees in Nainital">
+  <img src="/assets/images/posts/travel-type/nainital-1.webp" alt="A bunch of trees in Nainital">
   <figcaption>Trees in Nainital</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/images/posts/travel-type/nainital-2.jpg" alt="Raj Bhavan/Governor House, Nainital">
+  <img src="/assets/images/posts/travel-type/nainital-2.webp" alt="Raj Bhavan/Governor House, Nainital">
   <figcaption>Raj Bhavan, Nainital</figcaption>
 </figure>
 

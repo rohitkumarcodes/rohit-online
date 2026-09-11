@@ -33,7 +33,7 @@ I am cooking almost daily for the last 40-45 days. Usually, I make dinner. When 
 I intend to learn cooking from the first principles. Maybe next year. But for now, I just want to enjoy the taste of cooked garlic and the aroma of masala tea.
 
 
-![Rohit Kumar](/assets/images/imported/rohitkumar-1669710812-0.jpeg)
+![Rohit Kumar](/assets/images/imported/rohitkumar-1669710812-0.webp)
 
 
 Today, I made Halwai-style potato curry. My roommate said it's delicious. 

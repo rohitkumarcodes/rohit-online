@@ -46,7 +46,7 @@ I've spent all my life either in my hometown or in Delhi. However, I am an inter
 Got any questions or just want to say hi? Feel free to mail me at hello (at) rohit.onl
 
 <figure>
-  <img src="/assets/images/pages/about/rohit-jaipur-2.png" alt="Rohit Kumar, sitting in Jaigarh Fort, Jaipur">
+  <img src="/assets/images/pages/about/rohit-jaipur-2.webp" alt="Rohit Kumar, sitting in Jaigarh Fort, Jaipur">
   <figcaption>Happy me, probably because my goofy friend Ishan cracked a joke</figcaption>
 </figure>
 

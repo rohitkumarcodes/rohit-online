@@ -6,7 +6,7 @@ const { injectIntrinsicImageDimensions, normalizeFeedMedia } = require("./feed-m
 const rootDir = path.resolve(__dirname, "..");
 
 test("local images without dimensions get capped for feed output", () => {
-  const html = '<p><img src="/assets/images/posts/travel-type/nainital-2.jpg" alt="Raj Bhavan"></p>';
+  const html = '<p><img src="/assets/images/posts/travel-type/nainital-2.webp" alt="Raj Bhavan"></p>';
   const output = normalizeFeedMedia(html, { postUrl: "/travel-type/", rootDir });
 
   assert.match(output, /width="640"/);
@@ -15,7 +15,7 @@ test("local images without dimensions get capped for feed output", () => {
 });
 
 test("explicit image dimensions are preserved in feed output", () => {
-  const html = '<p><img src="/assets/images/posts/travel-type/nainital-2.jpg" alt="Raj Bhavan" width="300"></p>';
+  const html = '<p><img src="/assets/images/posts/travel-type/nainital-2.webp" alt="Raj Bhavan" width="300"></p>';
   const output = normalizeFeedMedia(html, { postUrl: "/travel-type/", rootDir });
 
   assert.match(output, /width="300"/);
@@ -23,7 +23,7 @@ test("explicit image dimensions are preserved in feed output", () => {
 });
 
 test("EXIF-rotated images keep the correct aspect ratio", () => {
-  const html = '<p><img src="/assets/images/posts/travel-type/nainital-1.jpg" alt="Trees"></p>';
+  const html = '<p><img src="/assets/images/posts/travel-type/nainital-1.webp" alt="Trees"></p>';
   const output = normalizeFeedMedia(html, { postUrl: "/travel-type/", rootDir });
 
   assert.match(output, /width="480"/);
@@ -67,9 +67,9 @@ test("iframe embeds fall back to a post link", () => {
 });
 
 test("page output gets intrinsic width and height for local images", () => {
-  const html = '<p><img src="/assets/images/posts/travel-type/nainital-1.jpg" alt="Trees"></p>';
+  const html = '<p><img src="/assets/images/posts/travel-type/nainital-1.webp" alt="Trees"></p>';
   const output = injectIntrinsicImageDimensions(html, { rootDir });
 
-  assert.match(output, /width="3024"/);
-  assert.match(output, /height="4032"/);
+  assert.match(output, /width="1280"/);
+  assert.match(output, /height="1707"/);
 });

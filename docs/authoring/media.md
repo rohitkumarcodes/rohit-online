@@ -29,6 +29,8 @@ If you want a visible caption, wrap the image in `figure` and use `figcaption`:
 
 The build automatically adds intrinsic dimensions for local images on normal pages. The Atom feed also applies a balanced preview cap, so you do not need to pre-scale source images just for feed readers.
 
+For page load, keep site-hosted photos around 1280px on the long edge and prefer WebP. Oversized originals (multi-megabyte JPEG/PNG, or a phone video at full bitrate) make posts slow even if the layout looks compact.
+
 ## Homepage photo
 
 The homepage image is `assets/images/home/pink-oleander.webp`, with a 640px companion file for smaller screens. To replace it, swap those files and update the `<img>` in `index.njk`.
